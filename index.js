@@ -1,4 +1,4 @@
-import bridge from 'lm-na-bridge'
+var bridge = require('lm-na-bridge')
 
 function makeHybridRouterMethod(methodName) {
     return function(bridgeConnection, paramsObj, success, fail) {
@@ -28,9 +28,9 @@ let router = {
 
 
 
-export default {
+module.exports={
     push: executeHybridRouterMethod,
-    back() {
+    back:function() {
         executeHybridRouterMethod({ name: 'back' })
     }
 }
