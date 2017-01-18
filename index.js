@@ -14,14 +14,14 @@ function makeHybridRouterMethod(methodName) {
 }
 
 function executeHybridRouterMethod(options) {
-    return new Promise((resolve, reject) => {
-        bridge().then((bridgeConnection) => {
+    return new Promise(function(resolve, reject){
+        bridge().then(function(bridgeConnection){
             router[options.name](bridgeConnection, options.query || {}, resolve, reject)
         }, reject)
     })
 }
 
-let router = {
+var router = {
     login: makeHybridRouterMethod('router_login'),
     back: makeHybridRouterMethod('router_back')
 }

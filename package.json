@@ -1,22 +1,82 @@
 {
-  "name": "lm-na-se-router",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "lm-na-se-router@git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+        "scope": null,
+        "escapedName": "lm-na-se-router",
+        "name": "lm-na-se-router",
+        "rawSpec": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+        "spec": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:limingtech-front-end/lm-na-se-router.git",
+          "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-na-se-router.git",
+          "httpsUrl": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+          "gitUrl": "git://github.com/limingtech-front-end/lm-na-se-router.git",
+          "shortcut": "github:limingtech-front-end/lm-na-se-router",
+          "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-na-se-router/master/package.json"
+        }
+      },
+      "D:\\Tests\\nativehybrid\\mail-icar"
+    ]
+  ],
+  "_from": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+  "_id": "lm-na-se-router@1.0.0",
+  "_inCache": true,
+  "_location": "/lm-na-se-router",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "lm-na-se-router@git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+    "scope": null,
+    "escapedName": "lm-na-se-router",
+    "name": "lm-na-se-router",
+    "rawSpec": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+    "spec": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:limingtech-front-end/lm-na-se-router.git",
+      "sshUrl": "git+ssh://git@github.com/limingtech-front-end/lm-na-se-router.git",
+      "httpsUrl": "git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+      "gitUrl": "git://github.com/limingtech-front-end/lm-na-se-router.git",
+      "shortcut": "github:limingtech-front-end/lm-na-se-router",
+      "directUrl": "https://raw.githubusercontent.com/limingtech-front-end/lm-na-se-router/master/package.json"
+    }
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/limingtech-front-end/lm-na-se-router.git#7f2bf225b0ab097f0ab1e5e82b25261e0fa9e503",
+  "_shasum": "7034736b9d94638247957aa86275a18f9d2f3a3c",
+  "_shrinkwrap": null,
+  "_spec": "lm-na-se-router@git+https://github.com/limingtech-front-end/lm-na-se-router.git",
+  "_where": "D:\\Tests\\nativehybrid\\mail-icar",
+  "author": {
+    "name": "littlstonee",
+    "email": "littlstonee@hotmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/limingtech-front-end/lm-na-se-router/issues"
+  },
+  "dependencies": {
+    "lm-na-bridge": "git+https://github.com/limingtech-front-end/lm-na-bridge.git"
+  },
+  "devDependencies": {},
+  "gitHead": "7f2bf225b0ab097f0ab1e5e82b25261e0fa9e503",
+  "homepage": "https://github.com/limingtech-front-end/lm-na-se-router#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "lm-na-se-router",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/limingtech-front-end/lm-na-se-router.git"
   },
-  "author": "littlstonee <littlstonee@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/limingtech-front-end/lm-na-se-router/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/limingtech-front-end/lm-na-se-router#readme",
-  "dependencies": {
-    "lm-na-bridge": "git+https://github.com/limingtech-front-end/lm-na-bridge.git"
-  }
+  "version": "1.0.0"
 }
